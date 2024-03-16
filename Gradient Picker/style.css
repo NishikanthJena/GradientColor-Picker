@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Monument';
+   }
+
+   @font-face {
+    font-family: monument;
+    src: url(./MonumentExtended-Regular.otf);
+    }
+
+   html, body {
+    height: 100%;
+    width: 100%;
+    gap: 1rem;
+    flex-wrap: wrap;
+   }
+   
+   body {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   }
+
+   section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3.2rem;
+   }
+
+   #myButton {
+    margin: 1rem;
+    padding: 10px;
+    border-radius: 1.5rem;
+    background-color:rgb(87, 69, 201);
+    color: rgb(34, 34, 34);
+    background: transparent;
+   }
+
+   #myButton2 {
+    margin: 1rem;
+    padding: 10px;
+    border-radius: 1.5rem;
+    background-color:rgb(168, 235, 18);
+    color: rgb(34, 34, 34);
+   }
+
+   .copyCode {
+    height: 4rem;
+    width: 46rem;
+    font-size: 12px;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #dacece;
+   }
+
+   @media screen and (max-width: 1024px) {  
+    .copyCode {
+        width: 100%;
+    }     
+   }
